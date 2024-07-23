@@ -1,0 +1,125 @@
+.container{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    width: 100vw;
+}
+.heading{
+  position: relative;
+  margin: 20px;
+  font-size: 30px;
+}
+.carouselContainer {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.card{
+  /* border: 1px solid; */
+  display: flex;
+  padding: 10px;
+  height: 50vh;
+}
+.right{
+  display: flex;
+   position: relative;
+   width: 20%;
+   height: 70%;
+   left: 40%;
+   top: 15%;
+   background-color: rgba(0, 0, 0, 0.096);
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+}
+.left{
+    display: flex;
+    position: relative;
+    width: 20%;
+    height: 70%;
+    top: 15%;
+    background-color: rgba(0, 0, 0, 0.096);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.leftcontent{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-left: 1px solid #F2AA4CFF;
+  width: 20vw;
+  left: 70%;
+}
+.rightcontent{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-right: 2px solid #F2AA4CFF;
+  width: 20vw;
+  left: 10%;
+}
+.left img{
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+}
+.right img{
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+}
+.leftcontent .h1{
+  position: relative;
+  font-size: 80px;
+  font-weight: bold;
+  color: #F2AA4CFF;
+  margin: 5% 10%;
+}
+.rightcontent .h1{
+  position: relative;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 5% 60%;
+  color:#F2AA4CFF;
+}
+.leftcontent .h3{
+  position: relative;
+  font-weight: bold;
+  top: 20%;
+  left: 10%;
+}
+.rightcontent .h3{
+  position: relative;
+  font-weight: bold;
+  top: 20%;
+  margin-left: 45%;
+}
+.leftcontent .span{
+  position: relative;
+  top: 25%;
+  left: 10%;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.rightcontent .span{
+  display: flex;
+  position: relative;
+  top: 25%;
+  right: 10%;
+  font-weight: 500;
+  padding-left: 40px;
+  text-align: right;
+}
+  @media (max-width: 768px) {
+    .carouselContainer {
+        width: 80%;
+    }
+    .card img{
+        bottom: 10%;
+    }
+  }
+  
