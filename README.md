@@ -1,1 +1,0 @@
-Front End of Minor Project
