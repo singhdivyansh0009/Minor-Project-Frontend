@@ -1,0 +1,157 @@
+.Register{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction:column;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    padding: 2%;
+}
+.error{
+    color: red;
+}
+.Input {
+    margin: 10px;
+    width: 23vw;
+    height: 7vh;
+    font-size: 15px;
+    padding-left: 2vw;
+    border-radius: 50px;
+    background: #e5e5e5;
+    border: none;
+    color: rgba(0, 0, 0, 0.712);
+    outline: none;
+  }
+  .forgotpassword{
+    cursor: pointer;
+    margin-left: 12vw;
+    color: rgba(38, 0, 255, 0.797);
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    width: 8vw;
+    height: 8vh;
+    margin-top: 3vh;
+    color: white;
+    border-radius: 50px;
+    background: #f90;
+    align-items: center;
+    justify-content: center;
+  }
+  .button:hover{
+    cursor: pointer;
+    opacity: 0.65;
+  }
+  
+  input::placeholder {
+    position: absolute;
+    color: #00000073; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  img {
+    width: 15vw;
+    height: 20vh;
+  }
+  
+  /* Add these styles for the slider */
+  .slider {
+    display: flex;
+    width: 25vw;
+    margin: 15px;
+    
+  }
+  
+  .slider-option {
+    cursor: pointer;
+    padding: 10px;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+  }
+  
+  .slider-option.active {
+    background: #F90;
+    color: white;
+  }
+  
+  #client {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  #serviceprovider {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .slider-option:hover {
+    background: rgba(255, 153, 0, 0.651);
+    color: white;
+  }
+  .reg{
+     margin-top: 2vh;
+     justify-content: center;
+     align-items: center;
+  }
+  .reg span{
+      cursor: pointer;
+      font-size: 18px;
+      color: rgba(38, 0, 255, 0.797);
+  }
+  @media (max-width: 768px) {
+    .Input {
+      width: 90vw;
+      padding-left: 5vw;
+    }
+  
+    .button {
+      width: 90vw;
+    }
+  
+    img {
+      width: 50vw;
+      height: 20vh;
+    }
+  
+    .slider {
+      width: 90vw;
+    }
+  
+    .slider-option {
+      width: 90vw;
+    }
+  }
+  
+  /* Media query for tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    input {
+      width: 70vw;
+      padding-left: 3vw;
+    }
+  
+    .button {
+      width: 70vw;
+    }
+  
+    img {
+      width: 40vw;
+      height: 40vh;
+    }
+  
+    .slider {
+      width: 70vw;
+    }
+  
+    .slider-option {
+      width: 70vw;
+    }
+  }

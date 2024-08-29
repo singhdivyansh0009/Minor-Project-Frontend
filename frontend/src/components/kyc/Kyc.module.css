@@ -1,0 +1,116 @@
+.body{
+    background-color: rgba(0, 0, 0, 0.123);
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.356);
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5%;
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left:39%;
+    width: 50%;
+}
+.Input{
+   width: 40%;
+   height: 5vh; 
+   position: relative;
+   top: 20px;
+   margin: 0px 20px;
+   border: 1px solid rgba(0, 0, 0, 0.705);
+   color: rgb(104, 104, 104);
+   outline: none;
+   font-size: 14px;
+   padding: 2px;
+}
+.Choose{
+   position: relative;
+   top: 20px;
+   margin: 0px 20px;
+   padding: 2px;
+    width: 41%;
+    height: 5vh; 
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    color: rgb(104, 104, 104);
+    outline: none;
+    font-size: 14px;
+}
+.documentNo{
+    display: flex;
+}
+.other{
+    display: flex;
+}
+.btn{
+    width:50%;
+    position: relative;
+    left: 25%;
+    height: 5vh;
+    margin: 20px 0;
+    border: none;
+    font-size: 18px;
+    background-color: #f90;
+    color: rgb(255, 255, 255);
+}
+.btn:hover{
+    border: 2px solid #f90;
+    background-color: white;
+    transition: 1s ease-in-out;
+    color: #f90;
+    cursor: pointer;
+}
+  .fileInput {
+    display: inline-block; /* Ensures label and input appear side-by-side */
+    position: relative; /* For button positioning (Option 2) */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Border for definition */
+    border-radius: 4px; /* Rounded corners for a modern look */
+    overflow: hidden; /* Needed for button positioning (Option 2) */
+    margin:10px 90px;
+  }
+  
+  .fileInput input[type="file"] {
+    white-space: nowrap; /* Hides overflow for long filenames */
+    text-overflow: ellipsis; /* Truncates long filenames with ellipsis */
+    position: absolute; /* Positions input element below label */
+    top: 0;
+    left: 0;
+    width: 100%; /* Expands input to fill width */
+    height: 100%; /* Expands input to fill height */
+    opacity: 0; /* Hides the default input element */
+    cursor: pointer;
+  }
+  
+  .fileInput span { /* Styles the text within the label */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+  }
+  .fileInput:hover {
+    background-color: rgba(0, 0, 0, 0.082);
+    transition: 0.2s ease-in;
+  }
+.error{
+    position: relative;
+    color: red;
+    width: 40%;
+    top: 5%;
+    left: 35%;
+}

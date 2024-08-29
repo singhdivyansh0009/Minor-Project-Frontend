@@ -1,0 +1,127 @@
+
+  /* Additional styling for the login container */
+  body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .login {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+  }
+  
+  .Input {
+    margin: 10px;
+    width: 23vw;
+    height: 7vh;
+    font-size: 15px;
+    padding-left: 2vw;
+    border-radius: 50px;
+    background: #e5e5e5;
+    border: none;
+    color: rgba(0, 0, 0, 0.712);
+    outline: none;
+  }
+  .forgotpassword{
+    cursor: pointer;
+    margin-left: 12vw;
+    color: rgba(38, 0, 255, 0.797);
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    width: 8vw;
+    height: 8vh;
+    margin-top: 3vh;
+    color: white;
+    border-radius: 50px;
+    background: #f90;
+    align-items: center;
+    justify-content: center;
+  }
+  .button:hover{
+    cursor: pointer;
+    opacity: 0.65;
+  }
+  
+  input::placeholder {
+    position: absolute;
+    color: #00000073; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .Img {
+    width: 15vw;
+    height: 20vh;
+  }
+  .error{
+    color: red;
+  }
+  .reg{
+    margin-top: 2vh;
+     justify-content: center;
+     align-items: center;
+  }
+  .reg span{
+      cursor: pointer;
+      font-size: 18px;
+      color: rgba(38, 0, 255, 0.797);
+  }
+  @media (max-width: 768px) {
+    .Input {
+      width: 90vw;
+      padding-left: 5vw;
+    }
+  
+    .button {
+      width: 90vw;
+    }
+  
+    .Img {
+      width: 60vw;
+      height: 20vh;
+    }
+  
+    .slider {
+      width: 90vw;
+    }
+  
+    .slider-option {
+      width: 90vw;
+    }
+  }
+  
+  /* Media query for tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .Input {
+      width: 70vw;
+      padding-left: 3vw;
+    }
+  
+    .button {
+      width: 70vw;
+    }
+  
+    .Img {
+      width: 40vw;
+      height: 40vh;
+    }
+  
+    .slider {
+      width: 70vw;
+    }
+  
+    .slider-option {
+      width: 70vw;
+    }
+  }
